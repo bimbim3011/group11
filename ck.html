@@ -32,13 +32,23 @@
                             <i class="fa-solid fa-sort-down"></i>
                         </a>
                         <ul class="subnav">
-                            <li><a href="/hason.html">Nguyen Hai Son</a></li>
-                            <li><a href="/">Nguyen Huu Thang</a></li>
-                            <li><a href="/vthanh.html">Do Viet Thanh</a></li>
-                            <li><a href="/dthanh.html">Nguyen Duc Thanh</a></li>
+                            <li><a href="/hason.html">Nguyễn Hải Sơn</a></li>
+                            <li><a href="/">Nguyễn Hữu Thắng</a></li>
+                            <li><a href="/vthanh.html">Đỗ Việt Thành</a></li>
+                            <li><a href="/dthanh.html">Nguyễn Đức Thành</a></li>
                         </ul>
                     </li>
-                    <li><a href="/">Contact</a></li>
+                    <li>
+                        <a href="/">Contact
+                            <i class ="fa-solid fa-sort-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li><i class="fa-brands fa-facebook fa-2xs"></i><a href="https://www.facebook.com/nguyen.haixon/">Nguyễn Hải Sơn</a></li>
+                            <li><i class="fa-brands fa-facebook fa-2xs"></i></i><a href="https://www.facebook.com/huuthang123321">Nguyễn Hữu Thắng</a></li>
+                            <li><i class="fa-brands fa-facebook fa-2xs"></i></i><a href="https://www.facebook.com/dovietbim">Đỗ Việt Thành</a></li>
+                            <li><i class="fa-brands fa-facebook fa-2xs"></i></i><a href="https://www.facebook.com/thanhnguyen.tnnn">Nguyễn Đức Thành</a></li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="ck.html">
                             Chứng Khoán
@@ -77,7 +87,38 @@
                 </p>
             </div>
             <div class="bioimg">
-                <img src="/img page/ck/ck.jpg" alt="">
+            <!-- <img src="/img page/ck/ck.jpg" alt=""> -->
+            <!-- Biểu đồ ck  -->
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container" style="height:400px;width:100%">
+                <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px); width:100%">
+                </div>
+                <div class="tradingview-widget-copyright">
+                    <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+                        <span class="blue-text">Cung cấp bởi TradingView</span>
+                    </a>
+                </div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                new TradingView.widget({
+                "autosize": true,
+                "symbol": "HNX:HNXINDEX",
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "light",
+                "style": "1",
+                "locale": "en",
+                "enable_publishing": false,
+                "withdateranges": true,
+                "hide_side_toolbar": false,
+                "allow_symbol_change": true,
+                "studies": [
+                  "STD;Stochastic_RSI"
+                ],
+                "support_host": "https://www.tradingview.com"
+              });
+                </script>
+              </div>
+              <!-- TradingView Widget END -->
                 <div class="pattern-1"><img src="/svg/pattern-1.svg" alt=""></div>
                 <div class="pattern-2"><img src="/svg/pattern-2.svg" alt=""></div>
                 <div class="pattern-3"><img src="/svg/pattern-3.svg" alt=""></div>
@@ -159,8 +200,7 @@
                         <a href="/pagedoanhnghiep.html">
                             <h2>Tổng lợi nhuận các công ty tăng vọt lên
                                 cao nhất 6 quý, đâu là động lực?</h2>
-                        </a>
-                        
+                        </a>                        
                     </div>
                 </a>
             </div>
@@ -234,9 +274,6 @@
                         </a>
                     </div>
                 </a>
-            </div>
-            <div class="showmorepost flex">
-                <a href="/">Show More Posts<i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </section>       
     </main>
