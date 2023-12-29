@@ -114,6 +114,51 @@ document.addEventListener("DOMContentLoaded", function () {
   type();
 })
 
+
+//HuuThangJSHTML
+document.addEventListener("DOMContentLoaded", function () {
+  const options = {
+    strings: ['Hữu Thắng'],
+    typeSpeed: 180,
+    backSpeed: 50,
+    backDelay: 2000,
+    loop: true
+  };
+
+  const multiTextElement = document.querySelector('.multi-textHT');
+  let currentTextIndex = 0;
+  let currentText = '';
+  let isDeleting = false;
+
+  function type() {
+    const fullText = options.strings[currentTextIndex];
+    if (isDeleting) {
+      currentText = fullText.substring(0, currentText.length - 1);
+    } else {
+      currentText = fullText.substring(0, currentText.length + 1);
+    }
+
+    multiTextElement.textContent = currentText;
+
+    let typeSpeed = options.typeSpeed;
+    if (isDeleting) {
+      typeSpeed /= 2; // Faster when deleting
+    }
+
+    if (!isDeleting && currentText === fullText) {
+      typeSpeed = options.backDelay;
+      isDeleting = true;
+    } else if (isDeleting && currentText === '') {
+      isDeleting = false;
+      currentTextIndex = (currentTextIndex + 1) % options.strings.length;
+    }
+
+    setTimeout(type, typeSpeed);
+  }
+
+  type();
+})
+
 //VThanhJSHTML
 document.addEventListener("DOMContentLoaded", function () {
   const options = {
