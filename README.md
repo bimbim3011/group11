@@ -4,8 +4,8 @@
 | Họ và tên | Mã sinh viên | Chức vụ | Phần trăm đóng góp |
 |--------------|-------|------|-------|
 | Đỗ Việt Thành | 24A4040036 | Nhóm trưởng | 25% |
-| Nguyễn Hải Sơn | 24a4042609 | Thành viên | 25% |
-| Nguyễn Hữu Thắng | 24a4042612 | Thành viên | 25% |
+| Nguyễn Hải Sơn | 24A4042609 | Thành viên | 25% |
+| Nguyễn Hữu Thắng | 24A4042612 | Thành viên | 25% |
 | Nguyễn Đức Thành | 24A4040096 | Thành viên | 25% |
 ### :open_book:	Giới thiệu đề tài
 Đề tài thiết kế website blog cá nhân là một hành trình sáng tạo đầy thú vị, nơi mà mọi người có thể thể hiện chính mình và chia sẻ những suy nghĩ, trải nghiệm độc đáo của mình với thế giới. Trang web này không chỉ là nơi lưu trữ những bức ảnh đẹp và những câu chuyện tuyệt vời, mà còn là không gian nơi thành viên có thể thể hiện cái tôi độc lập và sáng tạo của mình thông qua giao diện độc đáo và thiết kế tương tác đẹp mắt.
